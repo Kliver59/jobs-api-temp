@@ -9,12 +9,13 @@ import * as authController from './auth.controller.js';
 
 router.post(
   '/register',
-  validate(RegisterUserSchema),
+  validate({ bodySchema: RegisterUserSchema }),
   authController.register
 );
+
 router.post(
   '/login',
-  validate(LoginUserSchema),
+  validate({ bodySchema: LoginUserSchema }),
   authController.login
 );
 
