@@ -3,7 +3,7 @@ info:
   title: 06-Jobs-API
   version: 1.0.0
 servers:
-  - url: https://jobs-api-temp-kypy.onrender.com/api/v1
+  - url: https://jobs-api-temp-4qre.onrender.com/api/v1
 components:
   securitySchemes:
     bearerAuth:
